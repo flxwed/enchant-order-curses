@@ -124,7 +124,7 @@ function build_enchant_list(item){
 			}
 		}
 
-		if (i.substr(0, 5) == "Curse") allow = false;
+		// if (i.substr(0, 5) == "Curse") allow = false;
 
 		if (allow){
 			enchants.push(i);
@@ -479,4 +479,3 @@ function setup_darkmode(){
 		darkModeToggle.textContent = 'Dark Mode';
 	}
 }
-
